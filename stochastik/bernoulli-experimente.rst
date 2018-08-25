@@ -1,16 +1,20 @@
+
+.. index:: Bernoulli-Experiment
+.. _Bernoulli-Experiment:
 .. _Bernoulli-Experimente:
 
 Bernoulli-Experimente
 =====================
 
-Als `Bernoulli <https://de.wikipedia.org/wiki/Jakob_I._Bernoulli>`_-Experiment
-bezeichnet man ein Zufallsexperiment mit nur zwei möglichen Ergebnissen. Meist
-verwendet man dabei als Ergebnismenge :math:`\Omega = \{ 0 ,\, 1 \}`, wobei
+Als "Bernoulli-Experiment (benannt nach `Jakob Bernoulli
+<https://de.wikipedia.org/wiki/Jakob_I._Bernoulli>`_) bezeichnet man ein
+Zufallsexperiment mit nur zwei möglichen Ergebnissen. Meist verwendet man dabei
+als :ref:`Ergebnismenge <Ergebnismenge>`  :math:`\Omega = \{ 0 ,\, 1 \}`, wobei
 :math:`1` als Symbol für das Eintreten des Ereignisses ("Treffer") und :math:`0`
 als Symbol für das Nichteintreten des Ereignisses ("Niete") benutzt wird.
-Zusätzlich ist es üblich, mit :math:`p = P(\{ 1 \} )` die Wahrscheinlichkeit
-für einen Treffer und mit :math:`q = P(\{ 0 \} )` die Wahrscheinlichkeit für
-eine Niete zu bezeichnen.
+Zusätzlich ist es üblich, mit :math:`p = P(\{ 1 \} )` die Wahrscheinlichkeit für
+einen Treffer und mit :math:`q = P(\{ 0 \} )` die Wahrscheinlichkeit für eine
+Niete zu bezeichnen.
 
 Wird ein Bernoulli-Experiment mehrfach durchgeführt, wobei sich die einzelnen
 Versuchen nicht beeinflussen und die Trefferwahrscheinlichkeiten bei allen
@@ -49,6 +53,7 @@ Bernoulli-Kette mit einer Länge :math:`n` und einer Wahrscheinlichkeit
 Diese Formel wird häufig als "Formel von Bernoulli" bezeichnet.
 
 
+.. _Bernoulli-Kette:
 .. _Summenwahrscheinlichkeiten bei Bernoulli-Ketten:
 
 .. rubric:: Summenwahrscheinlichkeiten bei Bernoulli-Ketten

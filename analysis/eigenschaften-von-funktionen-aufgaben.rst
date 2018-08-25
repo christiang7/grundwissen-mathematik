@@ -11,6 +11,8 @@ Funktionen <Eigenschaften von Funktionen>`.
 
 .. rubric:: Stetigkeit
 
+.. {{{
+
 ----
 
 .. _fun01:
@@ -38,7 +40,7 @@ Funktionen <Eigenschaften von Funktionen>`.
 
 ----
 
-.. foo
+.. }}}
 
 .. only:: html
 

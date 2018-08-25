@@ -1,10 +1,13 @@
 
+.. _Rationale Funktion:
+.. _Rationale Funktionen:
 .. _Ganz- und gebrochenrationale Funktionen:
 
 Ganz- und gebrochenrationale Funktionen
 =======================================
 
 .. index:: Ganzrationale Funktion
+.. _Ganzrationale Funktion:
 .. _Ganzrationale Funktionen:
 
 Ganzrationale Funktionen
@@ -24,8 +27,9 @@ nennt man Koeffizienten. Ganzrationale Funktionen haben allgemein folgende
 Eigenschaften:
 
 1. Ganzrationale Funktionen sind für alle reellen Zahlen definiert, es gilt also
-   :math:`\mathbb{D} = \mathbb{R}`. Sie sind im gesamten Bereich stetig, d.h.
-   der Funktionsgraph ergibt eine kontinuierliche Kurve ohne Sprünge.
+   :math:`\mathbb{D} = \mathbb{R}`. Sie sind im gesamten Bereich stetig, der
+   Funktionsgraph ergibt also eine kontinuierliche Kurve ohne Sprünge ("glatt,
+   aber meist wellig").
 
 2. Jede Potenzfunktion :math:`x^n` mit :math:`n \ge 1` wird für große
    :math:`x`-Werte unendlich groß, da :math:`\lim_{x->\infty} x^n = \infty`
@@ -68,6 +72,7 @@ Vertretern von ganzrationalen Funktionen (mit :math:`n=1` beziehungsweise
 
 
 .. index:: Lineare Funktion
+.. _Lineare Funktion:
 .. _Lineare Funktionen:
 
 Lineare Funktionen
@@ -106,8 +111,9 @@ Anfangswert dar (das Ergebnis der Funktion, wenn :math:`x=0` ist).
     :name: fig-lineare-funktionen
     :alt:  fig-lineare-funktionen
 
-    Graphen der linearen Funktionen :math:`y = a \cdot x` bzw. :math:`y = x + b`
-    mit unterschiedlichen Parametern :math:`a` (links) und :math:`b` (rechts).
+    Graphen der linearen Funktionen :math:`y = a \cdot x` beziehungsweise
+    :math:`y = x + b` mit unterschiedlichen Parametern :math:`a` (links) und
+    :math:`b` (rechts).
 
     .. only:: html
 
@@ -115,16 +121,30 @@ Anfangswert dar (das Ergebnis der Funktion, wenn :math:`x=0` ist).
         <../../pics/analysis/lineare-funktionen.svg>`
 
 Eine Funktion heißt proportional, wenn das Verhältnis der Größen
-:math:`\frac{y}{x}` immer einen konstanten Wert hat, d.h. wenn
+:math:`\frac{y}{x}` immer einen konstanten Wert hat, wenn also
 :math:`\frac{y}{x} = k` gilt. Das ist genau dann der Fall, wenn :math:`y = k
 \cdot x` ist. Bei proportionalen Funktionen handelt es sich folglich um lineare
 Funktionen, die üblicherweise durch den Koordinatenursprung verlaufen und eine
 positive Steigung aufweisen.
 
 .. Beispiele: Menge -> Preis, Weg -> Zeit bei konstanter Geschwindigkeit
+.. Beispiel: Wie sieht der Funktionsgraph der Funktion :math:`f(x)=-0,5 \cdot x
+.. + 0,75` aus? 
+.. Für :math:`x=0` liefert die Funktion den Wert :math:`0,75`; der
+.. Funktionsgraph schneidet die die :math:`y`-Achse also auf Höhe
+.. :math:`y=0,75`. Die Steigung der Geraden beträgt :math:`-0,5`; bewegt man
+.. sich im Koordinatensystem entlang der :math:`x-Achse` um :math:`1` nach
+.. rechts, so sinkt der :math:`y-`Wert der Geraden um :math:`0,5`;
+.. für :math:`x=1` erhält man also :math:`y=0,25`. 
+.. Um den gesamten Funktionsgraph zu zeichnen, kann man die beiden
+.. Punkte :math:`(0;\, 0,75)` und :math:`(1;\, 0,25)` verbinden und die
+.. Strecke nach beiden Seiten hin verlängern.
+
+.. todo Link auf Geraden in einer Ebene
 
 
 .. index:: Quadratische Funktion
+.. _Quadratische Funktion:
 .. _Quadratische Funktionen:
 
 Quadratische Funktionen
@@ -162,9 +182,12 @@ nennt man die zugehörige Funktion quadratisch.
 
       s = \frac{1}{2} \cdot g \cdot t^2
 
-Der Graph einer quadratischen Funktion ist eine Parabel bzw. ein Stück davon.
+Der Graph einer quadratischen Funktion ist eine Parabel beziehungsweise ein
+Stück davon.
+
 
 .. index:: Parabel
+.. _Parabel:
 .. _Normalparabel:
 
 .. rubric:: Die Normalparabel
@@ -210,7 +233,7 @@ Die Besonderheiten einer Normalparabel sind:
   dass sich das Minuszeichen beim Quadrieren aufhebt -- Minus mal Minus ergibt
   Plus.
 
-* Die Normalparabel besitzt nur nicht-negative :math:`y`-Werte, d.h. sie bildet
+* Die Normalparabel besitzt nur nicht-negative :math:`y`-Werte, sie bildet also
   den Definitionsbereich :math:`D = \mathbb{R}` auf den positiven Bereich der
   reellen Zahlen :math:`W = \mathbb{R}^{+}` ab. Der Grund hierfür ist, dass für
   die Quadratzahl einer jeden reellen Zahl :math:`n \in \mathbb{R}` gilt:
@@ -225,7 +248,7 @@ Durch Variation der Parameterwerte :math:`a,\, b` und :math:`c` ergeben sich
 gegenüber der Normalparabel folgende Veränderungen:
 
 * Ist der Parameter :math:`0 < a < 1`, so ist die Parabel gegenüber der
-  Normalparabel gestaucht, d.h. ihre Werte wachsen langsamer als es bei der
+  Normalparabel gestaucht, ihre Werte wachsen also langsamer als es bei der
   Normalparabel der Fall ist. Im umgekehrten Fall :math:`a > 0` ist die
   resultierende Parabel gegenüber der Normalparabel gestreckt.
 
@@ -248,8 +271,8 @@ gegenüber der Normalparabel folgende Veränderungen:
 * Lässt sich eine Parabelgleichung als binomische Formel schreiben,
   beispielsweise :math:`x^2 - 6x + 9 = (x-3)^2` oder allgemein :math:`(x \pm
   b)^2`, so bewirkt der in der quadrierten Klammer stehende Parameter :math:`b`
-  eine Verschiebung nach links (falls :math:`b>0`) bzw. nach rechts (falls
-  :math:`b<0`).
+  eine Verschiebung nach links (falls :math:`b>0`) beziehungsweise nach rechts
+  (falls :math:`b<0`).
 
   Die Wirkung des Parameters :math:`b \cdot x` lässt sich bestimmen, indem man
   mit Hilfe der ersten Ableitung den Wert des Parabelscheitels allgemein
@@ -267,7 +290,7 @@ gegenüber der Normalparabel folgende Veränderungen:
     :name: fig-parabel-b
     :alt:  fig-parabel-b
 
-    Graphen der Parabelgleichung :math:`y = (x + b)^2` bzw. :math:`y = x^2 + b
+    Graphen der Parabelgleichung :math:`y = (x + b)^2` beziehungsweise :math:`y = x^2 + b
     \cdot x` für verschiedene Parameter :math:`b`.
 
     .. only:: html
@@ -276,7 +299,7 @@ gegenüber der Normalparabel folgende Veränderungen:
         <../../pics/analysis/parabel-a.svg>`
 
 * Ist der Parameter :math:`c \ne 0`, so ist die Parabel nach oben (:math:`c >
-  0`) bzw. nach unten (:math:`c < 0`) verschoben.
+  0`) beziehungsweise nach unten (:math:`c < 0`) verschoben.
 
 .. figure:: ../../pics/analysis/parabel-c.png
     :width: 50%

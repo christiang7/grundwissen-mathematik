@@ -8,6 +8,7 @@ Lösungen zur Analysis
     :maxdepth: 2
 
     eigenschaften-von-funktionen-loesungen.rst
+    elementare-funktionen/loesungen.rst
     differentialrechnung/loesungen.rst
     integralrechnung-loesungen.rst
 

@@ -25,14 +25,12 @@ dimensionslos, besitzt also keine räumliche Ausdehnung. Die Lage eines Punktes
 im Raum wird für gewöhnlich durch Koordinaten angegeben, beispielsweise
 :math:`\mathrm{P} (x\, ,\, y)` für einen Punkt im zweidimensionalen Raum oder
 :math:`\mathrm{P}(x \, ,\, y \, ,\, z)` für einen Punkt im dreidimensionalen
-Raum. Die Dimension eines Objekts gibt an, wieviele Raumrichtungen zur
+Raum. Die Dimension eines Objekts gibt an, wie viele Raumrichtungen zur
 Beschreibung seiner geometrischen Eigenschaften berücksichtigt werden müssen.
 
 .. Einheiten..
 
 .. index:: Gerade
-.. _Gerade:
-.. _Halbgerde:
 .. _Geraden und Halbgerden:
 
 .. rubric:: Geraden und Halbgeraden
@@ -119,7 +117,7 @@ eindeutigen Richtungssinn aufweist.
         <../pics/geometrie/strecke-und-vektor.svg>`
 
 Auf die Darstellung von Strecken, Vektoren und Geraden mittels Koordinaten wird
-im Rahmen der :ref:`analytischen Geometrie <Strecken, Geraden und Ebenen>` näher
+im Abschnitt der :ref:`Strecken und Geraden <Strecken und Geraden>` näher
 eingegangen.
 
 
@@ -227,6 +225,8 @@ Das Bogenmaß, das ebenfalls häufig für Winkelangaben Verwendung findet, wird 
 Abschnitt :ref:`Gradmaß und Bogenmaß <Gradmaß und Bogenmaß>` näher beschrieben.
 
 .. index:: Nebenwinkel
+.. _Nebenwinkel:
+.. _Scheitelwinkel:
 .. _Scheitelwinkel und Nebenwinkel:
 
 .. rubric:: Scheitelwinkel und Nebenwinkel

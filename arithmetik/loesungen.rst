@@ -49,8 +49,8 @@ Rechenregeln <Grundrechenarten und Rechenregeln>`.
   .. math::
 
       &5 \cdot a \cdot b \cdot (-2) \cdot b^2 \cdot c \cdot \dfrac{1}{2} \cdot a^2 \cdot b \cdot c^2 \\
-      = \; & 5 \cdot (-2) \cdot \dfrac{1}{2} \cdot a \cdot a^2 \cdot b^2 \cdot b
-      \cdot c \cdot c^2 = - 5 \cdot a^3 \cdot b^3 \cdot c^3\\
+      = \; & 5 \cdot (-2) \cdot \dfrac{1}{2} \cdot a \cdot a^2 \cdot b \cdot b^2 \cdot b
+      \cdot c \cdot c^2 = - 5 \cdot a^3 \cdot b^4 \cdot c^3\\
 
   Ebenso wie bei der Multiplikation von Zahlen können somit auch Produkte von
   gleichartigen Variablen zu Potenzen zusammengefasst werden.

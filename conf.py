@@ -3,15 +3,16 @@
 # sys.path.append(os.path.abspath('_exts'))
 
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
+    # 'sphinx.ext.autodoc',
+    # 'sphinx.ext.doctest',
+    # 'sphinx.ext.coverage',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
-    'sphinx.ext.coverage',
     'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
 ]
+
 
 # 'ipython_console_highlighting',
 # 'inheritance_diagram',
@@ -34,6 +35,10 @@ exclude_patterns = ["notes.rst", "*/notes.rst", "**/notes.rst","README.rst"]
 todo_include_todos = False
 trim_footnote_reference_space = True
 
+linkcheck_ignore = [r'http://localhost:\d+/']
+linkcheck_timeout = 2
+
+
 pygments_style  = 'sphinx'
 html_theme      = 'sphinxdoc'
 
@@ -49,7 +54,6 @@ html_static_path = ['_static']
 html_last_updated_fmt = '%d.%m.%Y'
 today_fmt = '%d.%m.%Y'
 
-html_use_smartypants = True
 html_additional_pages = {'home': 'home.html'}
 html_domain_indices = False
 html_use_index = True
@@ -73,7 +77,7 @@ latex_preamble = r'''
 \usepackage[T1]{fontenc}
 \usepackage[version=3]{mhchem}
 \usepackage{shadow}
-\usepackage{amsmath, units, cancel}
+\usepackage{amsmath, units, array, cancel}
 \usepackage{amsfonts, amssymb, mathtools, xcolor}
 \usepackage{pifont, mdframed, booktabs, lscape}
 \usepackage{nicefrac, marvosym, wasysym, textcomp}

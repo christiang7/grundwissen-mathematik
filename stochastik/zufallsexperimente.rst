@@ -1,4 +1,5 @@
 .. index:: Zufallsexperiment
+.. _Zufallsexperiment:
 .. _Zufallsexperimente und Ereignisse:
 
 Zufallsexperimente und Ereignisse
@@ -9,6 +10,7 @@ bezeichnet man als determiniert. Im Rahmen der Wahrscheinlichkeitsrechnung
 werden hingegen meist zufällige Vorgänge betrachtet.
 
 .. index:: Zufallsexperiment; einstufig
+.. _Ergebnismenge:
 .. _Zufallsexperimente:
 
 .. rubric:: Zufallsexperimente
@@ -99,6 +101,7 @@ werden. Jedem Ergebnis entspricht dabei einem Weg durch den Ergebnisbaum.
 .. todo pic
 
 .. index:: Ereignis
+.. _Ereignis:
 .. _Ereignisse:
 
 .. rubric:: Ereignisse

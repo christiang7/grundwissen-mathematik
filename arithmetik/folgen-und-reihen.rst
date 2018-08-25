@@ -36,6 +36,8 @@ erfolgen:
     (a_{\mathrm{n}}) = (2 \cdot n^2) = 2 ,\,  8 ,\,  18 ,\, 32 ,\, \ldots
 
 .. index:: Rekursion, Fibonacci-Folge
+.. _Rekursion:
+.. _Fibonacci-Folge:
 
 * Ist (mindestens) das erste Folgenglied bekannt und besteht eine
   Rechenvorschrift, wie sich ein Folgenglied aus einem vorhergehenden berechnen
@@ -62,7 +64,6 @@ Beschränkt man die Definitionsmenge auf die ersten :math:`n` natürlichen Zahle
 
 
 .. index:: Monotonie einer Zahlenfolge
-
 .. _Monotonie einer Zahlenfolge:
 
 Monotonie einer Zahlenfolge
@@ -93,7 +94,6 @@ Größer-Gleich-Relation :math:`\ge` die Größer-Relation :math:`>`, so nennt m
 die Folge *streng* monoton ab- beziehungsweise zunehmend.
 
 .. index:: Beschränktheit einer Zahlenfolge
-
 .. _Beschränktheit einer Zahlenfolge:
 
 Beschränktheit einer Zahlenfolge
@@ -164,6 +164,8 @@ Bezüglich des Grenzwerts einer Folge gilt:
 * Die Folge :math:`(n^2)` ist divergent, sie hat keinen Grenzwert.
 
 .. index:: Nullfolge, Cauchy-Kriterium
+.. _Nullfolge:
+.. _Cauchy-Kriterium:
 .. _Konvergenzkriterium:
 
 Folgen, die den Wert Null als Grenzwert haben, nennt man Nullfolgen. Ihnen kommt
@@ -180,6 +182,8 @@ wenn sich zu jedem beliebig kleinen Wert :math:`\varepsilon` eine Zahl
 :math:`n_0 > n` finden lässt, so dass für alle Folgenglieder
 :math:`a_{\mathrm{i}}, a_{\mathrm{j}}` ab :math:`a_{\mathrm{n_0}}` gilt, dass
 :math:`|a_{\mathrm{i}} - a_{\mathrm{j}} | < \varepsilon` ist.
+
+.. _Wichtige Grenzwerte:
 
 .. rubric:: Wichtige Grenzwerte 
 
@@ -200,10 +204,7 @@ Die Zahl :math:`e \approx 2,71828...` ist irrational und wird "Eulersche Zahl"
 genannt; sie ist insbesondere für :ref:`Exponentialfunktionen
 <Exponentialfunktionen>` von besonderer Bedeutung.
 
-.. index::
-    single: Arithmetische Folge
-    single: Folge; arithmetische Folge
-
+.. index:: Arithmetische Folge, Folge; arithmetische Folge
 .. _Arithmetische Folgen:
 
 Arithmetische Folgen

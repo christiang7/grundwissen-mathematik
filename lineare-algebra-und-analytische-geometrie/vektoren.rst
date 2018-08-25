@@ -129,10 +129,11 @@ anhand seiner Komponenten :math:`a_{\mathrm{x}}` und :math:`a_{\mathrm{y}}` (und
       b_{\mathrm{z}}^2} = \sqrt{4^2 + 5^2 + 2^2} = \sqrt{45}
 
 
-.. index:: Vektor; Gegenvektor
 .. _Vektor und Gegenvektor:
+.. _Identischer Vektor:
+.. _Identische Vektoren:
 
-.. rubric:: Vektor und Gegenvektor
+.. rubric:: Identische Vektoren
 
 Zwei Vektoren :math:`\vec{a}` und :math:`\vec{a}` sind gleich, wenn sie in allen
 Koordinaten übereinstimmen. Beide Vektoren haben dann den gleichen Betrag, die
@@ -153,6 +154,12 @@ von Anfangspunkt und Endpunkt von Bedeutung ist.
 
         :download:`SVG: Gleichheit zweier Vektoren
         <../pics/geometrie/vektor-gleichheit.svg>`
+
+.. index:: Vektor; Gegenvektor
+.. _Gegenvektor:
+.. _Gegenvektoren:
+
+.. rubric:: Gegenvektor
 
 Das Negative :math:`- \vec{a}` eines Vektors :math:`a`, auch "Gegenvektor"
 genannt, ist ein Vektor mit gleichem Betrag und gleicher Richtung wie

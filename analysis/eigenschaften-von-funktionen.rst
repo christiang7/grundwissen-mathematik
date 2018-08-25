@@ -175,6 +175,7 @@ Surjektivität, Injektivität und Bijektivität
 Die Unterscheidung von surjektiven, injektiven und bijektiven Funktionen
 ermöglicht eine wichtige Einteilung von Funktionen.
 
+.. _surjektiv:
 .. _Surjektivität:
 
 * Eine Funktion heißt surjektiv, wenn jedes Element ihrer Wertemenge
@@ -208,6 +209,7 @@ ermöglicht eine wichtige Einteilung von Funktionen.
       parallelen Geraden zwischen :math:`y=-1` und :math:`y=1` mindestens einmal
       geschnitten.
 
+.. _injektiv:
 .. _Injektivität:
 
 * Eine Funktion heißt injektiv, wenn jedes Element ihrer Wertemenge
@@ -241,6 +243,7 @@ ermöglicht eine wichtige Einteilung von Funktionen.
       :math:`(y<0)` überhaupt nicht geschnitten.
 
 .. _Bijektivität:
+.. _bijektiv:
 
 * Eine Funktion heißt bijektiv, wenn jedes Element ihrer Wertemenge
   :math:`\mathbb{W}` *genau* einmal als Funktionswert auftritt, also jedes
@@ -273,7 +276,7 @@ ermöglicht eine wichtige Einteilung von Funktionen.
 
 
 Jede surjektive oder injektive Funktion kann durch eine geeignete Einschränkung
-der Definitionsmenge bzw. der Wertemenge zu einer entsprechenden bijektiven
+der Definitions- beziehungsweise Wertemenge zu einer entsprechenden bijektiven
 Funktion gemacht werden. [#]_
 
 ..  Injektiv: Jedes Element der Zielmenge höchstens ein Element der
@@ -281,6 +284,7 @@ Funktion gemacht werden. [#]_
 
 
 .. index:: Umkehrfunktion
+.. _Umkehrfunktion:
 .. _Umkehrbarkeit einer Funktion:
 
 Umkehrbarkeit einer Funktion
@@ -316,7 +320,12 @@ für jede Funktion eine Zuordnung finden, die jedem beliebigen :math:`y`-Wert au
 eindeutige Weise einen :math:`x`-Wert zuweist. Eine Funktion besitzt diese
 Eigenschaft genau dann, wenn sie :ref:`bijektiv <Bijektivität>` ist. Ist eine
 Funktion nicht bijektiv, so muss sie zuerst durch Einschränkung ihrer
-Definitions- bzw. Wertemenge zu einer bijektiven Funktion gemacht werden.
+Definitions- beziehungsweise Wertemenge zu einer bijektiven Funktion gemacht werden.
+
+
+.. _Bestimmung der Umkehrfunktion:
+
+.. rubric:: Bestimmung der Umkehrfunktion
 
 Die Umkehrfunktion :math:`f_{\mathrm{U}}` einer Funktion :math:`f` findet man,
 indem man die ursprüngliche Funktionsgleichung :math:`y=f(x)` nach :math:`x`
@@ -404,11 +413,11 @@ Es gilt somit für jede Funktion :math:`f(x)` und :math:`x_1 < x_2`:
     \quad \text{$f(x)$ ist konstant. }
 
 Gilt bei der obigen Unterscheidung anstelle der Kleiner-Gleich-Relation
-:math:`\le` die Kleiner-Relation :math:`<` bzw. anstelle der Größer-Gleich-Relation
-:math:`\ge` die Größer-Relation :math:`>`, so nennt man die Funktion *streng*
-monoton ab- bzw. zunehmend. Jede streng monoton steigende Funktion ist bijektiv
-und somit umkehrbar; die Umkehrfunktion hat dabei die gleiche Monotonie wie die
-ursprüngliche Funktion.
+:math:`\le` die Kleiner-Relation :math:`<` beziehungsweise anstelle der
+Größer-Gleich-Relation :math:`\ge` die Größer-Relation :math:`>`, so nennt man
+die Funktion *streng* monoton ab- beziehungsweise zunehmend. Jede streng monoton
+steigende Funktion ist bijektiv und somit umkehrbar; die Umkehrfunktion hat
+dabei die gleiche Monotonie wie die ursprüngliche Funktion.
 
 .. index:: Beschränktheit einer Funktion
 .. _Beschränktheit:
@@ -456,6 +465,8 @@ Schranke, so heißt die Funktion in diesem Bereich unbeschränkt.
 
 .. index:: Grenzwert einer Funktion
 
+.. _Grenzwert:
+.. _Grenzwert einer Funktion:
 .. _Grenzwerte einer Funktion:
 
 Grenzwerte einer Funktion
@@ -470,20 +481,20 @@ wenn sie :ref:`monoton <Monotonie>` und :ref:`beschränkt <Beschränktheit>` ist
 .. rubric:: Grenzwerte für :math:`x \to \infty` und :math:`x \to -\infty`
 
 Grenzwerte von Funktionen werden ebenfalls in sehr ähnlicher Weise wie
-Grenzwerte von :ref:`Folgen <Folgen und ihre Eigenschaften>` definiert. Während jedoch der
-"Definitionsbereich" von Folgen auf die natürlichen Zahlen beschränkt ist und
-somit nur *ein* Grenzwert für :math:`x \to \infty` existieren kann, können die
-:math:`x`-Werte von Funktionen sowohl im positiven wie auch im negativen
-Zahlenbereich unendlich groß werden; es lässt sich daher ein Grenzwert sowohl
-für :math:`x \to \infty` wie auch für :math:`x \to -\infty` definieren.
+Grenzwerte von :ref:`Folgen <Folgen und ihre Eigenschaften>` definiert. Während
+jedoch der "Definitionsbereich" von Folgen auf die natürlichen Zahlen beschränkt
+ist und somit nur *ein* Grenzwert für :math:`x \to \infty` existieren kann,
+können die :math:`x`-Werte von Funktionen sowohl im positiven wie auch im
+negativen Zahlenbereich unendlich groß werden; es lässt sich daher ein Grenzwert
+sowohl für :math:`x \to \infty` wie auch für :math:`x \to -\infty` definieren.
 
 Ein Grenzwert einer Funktion für :math:`x \to \infty` existiert genau dann, wenn
 sich für immer größere :math:`x`-Werte die zugehörigen :math:`y`-Werte immer
 mehr an einen bestimmten Wert :math:`g` annähern. Dies ist genau dann der Fall,
 wenn für alle :math:`x`-Werte ab einer gewissen Zahl :math:`x_0` das
-:ref:`Konvergenzkriterium <Grenzwert einer Zahlenfolge>` erfüllt ist, also die Differenz von
-:math:`f(x) - g` beliebig klein wird. Für jeden noch so kleinen Wert
-:math:`\varepsilon` muss also gelten:
+:ref:`Konvergenzkriterium <Grenzwert einer Zahlenfolge>` erfüllt ist, also die
+Differenz von :math:`f(x) - g` beliebig klein wird. Für jeden noch so kleinen
+Wert :math:`\varepsilon` muss also gelten:
 
 .. math::
     :label: eqn-cauchy-kriterium
@@ -541,13 +552,14 @@ eigentlich existieren muss.
 ..  Man lehnt sich dabei vielmehr an den Sprachgebrauch an, dass eine derartige
 ..  Funktion für große :math:`x`-Werte "gegen unendlich" geht.
 
+
 .. rubric:: Grenzwert für :math:`x \to x_0`
 
-Grenzwerte von Funktionen können nicht nur für unendlich große negative bzw.
-positive :math:`x`-Werte betrachtet werden; es ist ebenso möglich zu prüfen, ob
-ein Grenzwert existiert, wenn sich die :math:`x`-Werte einem frei wählbaren Wert
-:math:`x_0` annähern. Existiert ein solcher Grenzwert :math:`g`, so schreibt
-man:
+Grenzwerte von Funktionen können nicht nur für unendlich große negative
+beziehungsweise positive :math:`x`-Werte betrachtet werden; es ist ebenso
+möglich zu prüfen, ob ein Grenzwert existiert, wenn sich die :math:`x`-Werte
+einem frei wählbaren Wert :math:`x_0` annähern. Existiert ein solcher Grenzwert
+:math:`g`, so schreibt man:
 
 .. math::
     :label: eqn-grenzwert-an-einer-stelle
@@ -575,7 +587,7 @@ Grenzwerte:
     g_{\mathrm{+}} = \lim_{\substack{x \to (x_0+h), \\ h \to 0}} \big(f(x)\big)
 
 Entsprechend bezeichnet man die beiden zugehörigen Grenzwerte :math:`g_{-}` und
-:math:`g_{+}` als "linksseitig" bzw. "rechtsseitig".
+:math:`g_{+}` als "linksseitig" beziehungsweise  "rechtsseitig".
 
 
 .. _Rechenregeln für Grenzwerte:
@@ -594,11 +606,11 @@ Für das Rechnen mit Grenzwerten gibt es folgende Rechenregeln:
     \lim \left( \frac{f_1(x)}{f_2(x)}\right) &= \frac{\lim
     \big(f_1(x)\big)}{\lim \big(f_2(x)\big)}
 
-Bei der Division zweier Funktionen bzw. Grenzwerte muss dabei darauf geachtet
-werden, dass nicht durch Null dividiert wird, d.h. es muss :math:`f_2(x) \ne 0`
-für alle :math:`x` sowie :math:`\lim \big( f_2(x) \big) \ne 0` gelten. Ist
-im Speziellen :math:`f(x) =1` und :math:`g(x)` eine Funktion mit dem Grenzwert
-:math:`\infty` für :math:`x \to \infty`, so gilt:
+Bei der Division zweier Funktionen beziehungsweise Grenzwerte muss dabei darauf
+geachtet werden, dass nicht durch Null dividiert wird, es muss also
+:math:`f_2(x) \ne 0` für alle :math:`x` sowie :math:`\lim \big( f_2(x) \big) \ne
+0` gelten. Ist im Speziellen :math:`f(x) =1` und :math:`g(x)` eine Funktion mit
+dem Grenzwert :math:`\infty` für :math:`x \to \infty`, so gilt:
 
 .. math::
 
@@ -626,15 +638,15 @@ Stetigkeitsbedingung für alle :math:`x`-Werte des Definitionsbereichs erfüllt
 ist.
 
 Anschaulich bedeutet Stetigkeit, dass der Graph einer Funktion keine "Sprünge"
-macht, d.h. entlang des Definitionsbereichs als eine durchgezogene Linie (ohne
+macht, also entlang des Definitionsbereichs als eine durchgezogene Linie (ohne
 Absetzen des Schreibstifts) gezeichnet werden kann. Dies ist bei sehr vielen
-Funktionen der Fall, beispielsweise bei allen ganzrationalen Funktionen, der
-Sinus- bzw. Cosinusfunktion. Auch die Tangens- und Hyperbelfunktion :math:`f(x)
-= \frac{1}{x}` sind stetig, da sich ihre Funktionswerte nur an den jeweils nicht
-definierten Stellen (Definitionslücken) sprunghaft ändern. Auch die Kombination
-zweier oder mehrerer stetiger Funktionen mittels den Grundrechenarten Addition,
-Subtraktion, Multiplikation oder Division ungleich Null ergibt wieder eine
-stetige Funktion.
+Funktionen der Fall, beispielsweise bei allen ganz-rationalen Funktionen, der
+Sinus- beziehungsweise Cosinusfunktion. Auch die Tangens- und Hyperbelfunktion
+:math:`f(x) = \frac{1}{x}` sind stetig, da sich ihre Funktionswerte nur an den
+jeweils nicht definierten Stellen (Definitionslücken) sprunghaft ändern. Auch
+die Kombination zweier oder mehrerer stetiger Funktionen mittels den
+Grundrechenarten Addition, Subtraktion, Multiplikation oder Division ungleich
+Null ergibt wieder eine stetige Funktion.
 
 Ein anschauliches Beispiel für eine lokal, aber nicht global stetige Funktion
 ist die so genannte Signum-Funktion (auch Vorzeichenfunktion genannt). Sie ist
@@ -670,6 +682,8 @@ rechtsseitiger Grenzwert :math:`g_{\mathrm{+}} = 1` nicht überein.
 .. index:: Minimum, Maximum
 .. _Minimum:
 .. _Maximum:
+.. _Extremwertsatz:
+.. _Zwischenwertsatz:
 .. _Zwischenwertsatz und Extremwertsatz:
 
 .. rubric:: Zwischenwertsatz und Extremwertsatz
@@ -694,6 +708,7 @@ Nullstellen wichtige Tatsache wird "Zwischenwertsatz" genannt.
 
 
 .. index:: Nullstelle
+.. _Nullstelle:
 .. _Nullstellen:
 
 Nullstellen
@@ -729,6 +744,7 @@ Zeichnet man eine Funktion als Graph in einem Koordinatensystem ein, so stellen
 Nullstellen Schnitt- oder Berührungspunkte mit der :math:`x`-Achse dar.
 
 .. index:: Schnittpunkt zweier Funktionen
+.. _Schnittpunkt zweier Funktionen:
 .. _Schnittpunkte zweier Funktionen:
 
 .. rubric:: Schnittpunkte zweier Funktionen
@@ -737,10 +753,10 @@ Eng verbunden mit der Bestimmung von Nullstellen ist die Bestimmung von
 Schnittstellen zweier oder mehrerer Funktionen. Betrachtet man zwei Funktionen
 :math:`f_1(x)` und :math:`f_2(x)`, so kann man prüfen, für welche
 :math:`x`-Werte aus dem gemeinsamen Definitionsbereich :math:`\mathbb{D} =
-\mathbb{D}_1 \cap \mathbb{D}_2` die Werte der Funktionen übereinstimmen, d.h.
-für welche Ausgangswerte :math:`{\color{white}|}x_0, x_1, \text{usw.}` die Bedingung
-:math:`f_1(x) = f_2(x)` gilt. Das Lösen dieser Gleichung stimmt formal mit
-der Bestimmung der Nullstelle von :math:`f_1(x) - f2(x)` überein:
+\mathbb{D}_1 \cap \mathbb{D}_2` die Werte der Funktionen übereinstimmen, für
+welche Ausgangswerte :math:`{\color{white}|}x_0, x_1, \text{usw.}` also die
+Bedingung :math:`f_1(x) = f_2(x)` gilt. Das Lösen dieser Gleichung stimmt formal
+mit der Bestimmung der Nullstelle von :math:`f_1(x) - f2(x)` überein:
 
 .. math::
 
@@ -753,6 +769,9 @@ die beim Lösen der obigen Gleichung gefundenen :math:`x`-Werte in eine der
 beiden Funktionen einsetzt.
 
 
+.. index:: Verkettung von Funktionen
+.. _Verkettung:
+.. _Verknüpfung:
 .. _Verknüpfung und Verkettung von Funktionen:
 
 Verknüpfung und Verkettung von Funktionen
@@ -768,7 +787,8 @@ Arten möglich:
   beiden Funktionen berechnet und diese dann mit der entsprechenden
   Grundrechenart verknüpft. Schrittweise lassen sich so auch mehrere Funktionen
   miteinander verknüpfen, wobei auf die Auswertungsreihenfolge der Verknüpfungen
-  (Multiplikation bzw. Division vor Addition bzw. Subtraktion) zu achten ist.
+  (Multiplikation beziehungsweise Division vor Addition beziehungsweise
+  Subtraktion) zu achten ist.
 
   Allgemein hat eine verknüpfte Funktion somit folgende Form:
 
@@ -803,10 +823,10 @@ Arten möglich:
 
 
 * Bei einer so genannten Verkettung werden zwei Funktionen "hintereinander"
-  ausgeführt, d.h. der Funktionswert der ersten Funktion wird als Ausgangswert
-  der zweiten Funktion verwendet. Dies ist im Allgemeinen nur dann möglich,
-  wenn der Wertebereich der ersten Funktion eine Teilmenge des
-  Definitionsbereichs der zweiten Funktion ist.
+  ausgeführt, der Funktionswert der ersten Funktion wird also als Ausgangswert
+  der zweiten Funktion verwendet. Dies ist im Allgemeinen nur dann möglich, wenn
+  der Wertebereich der ersten Funktion eine Teilmenge des Definitionsbereichs
+  der zweiten Funktion ist.
 
   Allgemein hat eine verkettete Funktion somit folgende Form:
 
@@ -821,6 +841,11 @@ Arten möglich:
   zunächst der Wert der inneren Funktion :math:`f_1` berechnet, und dieser
   anschließend, sofern erlaubt, als Argument für die äußere Funktion
   :math:`f_2` eingesetzt.
+
+Bei der Verkettung zweier Funktionen ist die Reihenfolge der Verkettung zu
+beachten: Ist beispielsweise :math:`f_1(x) = x + 1` und :math:`f_2(x) =
+\sqrt{x}`, so ist :math:`f_2\big(f_1(x)\big) = \sqrt{x+1}`, während
+:math:`f_1\big(f_2(x)\big) = \sqrt{x} + 1` ergibt.
 
 .. raw:: html
 
@@ -857,13 +882,13 @@ Arten möglich:
 .. [#] Beispielsweise kann die (surjektive) Funktion :math:`f(x) =
     \sin{(x)}` mit :math:`\mathbb{D} = \mathbb{R}` und :math:`\mathbb{W} =
     [-1 ;\; +1]` durch eine Einschränkung des Definitionsbereichs auf
-    :math:`\mathbb{D} = [- \pi ;\; + \pi]` zu einer bijektiven Funktion
+    :math:`\mathbb{D} = [-\pi ;\; +\pi]` zu einer bijektiven Funktion
     gemacht werden.
 
     Entsprechend kann die (injektive) Funktion :math:`f(x) = 2^x` mit
     :math:`\mathbb{D} = \mathbb{R}` und :math:`\mathbb{W} = \mathbb{R}` durch
-    eine Einschränkung des Wertebereichs auf :math:`\mathbb{W} = \mathbb{R}
-    ^{+}` zu einer bijektiven Funktion gemacht werden.
+    eine Einschränkung des Wertebereichs auf :math:`\mathbb{W} = \mathbb{R}^{+}`
+    zu einer bijektiven Funktion gemacht werden.
 
 .. [#] Ebenso kann man für jede monotone Zahlenfolge :math:`x_n` aus den Werten
     des Definitionsbereichs die Folge der zugehörigen Funktionswerte betrachten.

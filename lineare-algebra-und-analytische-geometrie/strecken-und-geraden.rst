@@ -15,6 +15,7 @@ Strecken und Geraden angewendet werden.
 
 
 .. index:: Verschiebungsvektor, Strecke
+.. _Strecke:
 .. _Strecken und Teilverhältnisse:
 
 Strecken und Teilverhältnisse
@@ -134,6 +135,8 @@ sowie des Verschiebungsvektors :math:`\vec{v}` beider Punkte beschreiben:
 
 
 .. index:: Teilverhältnis, Teilpunkt
+.. _Teilpunkt:
+.. _Teilverhältnis:
 .. _Das Teilverhältnis:
 
 Das Teilverhältnis

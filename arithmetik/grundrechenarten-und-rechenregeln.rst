@@ -325,7 +325,7 @@ Rechenregeln:
     :label: eqn-kommutativgesetz
 
     a_1 + a_2 &= a_2 + a_1 \\[6pt]
-    a_1 \cdot a_2 &= a_2 \cdot a_1
+    a_1 \; \cdot \, a_2 &= a_2 \; \cdot \, a_1
 
 Die Subtraktion und die Division sind nicht kommutativ.
 

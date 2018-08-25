@@ -322,9 +322,9 @@ erforderlich.
         \sqrt{4 \cdot x - 3} - 2 \cdot x + 1 = 0
 
     Damit unter der Wurzel kein negativer Wert steht, muss :math:`4 \cdot x - 3 \ge
-    0` gelten, also :math:`x \ge 0,75`. Zur Lösung der Gleichung wird zunächst die
-    Wurzel isoliert, d.h. alle übrigen Terme auf die rechte Seite der Gleichung
-    gebracht:
+    0` gelten, also :math:`x \ge 0,75`. Zur Lösung der Gleichung wird zunächst
+    die Wurzel isoliert, es werden also alle übrigen Terme auf die rechte Seite
+    der Gleichung gebracht:
 
     .. math::
 

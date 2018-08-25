@@ -1,7 +1,0 @@
-Notizen
-=======
-
-Aufgaben zur Vektoraddition:
-
-
-

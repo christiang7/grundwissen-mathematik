@@ -185,7 +185,7 @@ möglich. Im Allgemeinen lautet diese Gleichung:
 
 .. math::
 
-    \left(a^{n_1}\right)^{n_2} = a^{n_1 \cdot a^{n_2}}
+    \left(a^{n_1}\right)^{n_2} = a^{n_1 \cdot n_2}
 
 Das Wurzelziehen stellt die Umkehrung des Potenzierens dar. Um die obige
 Rechenregel umzukehren, muss die Multiplikation des Exponenten umgekehrt werden.

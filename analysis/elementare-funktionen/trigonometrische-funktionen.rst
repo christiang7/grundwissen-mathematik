@@ -74,7 +74,7 @@ Quadranten des Koordinatensystems sich der "Kreisvektor" :math:`\mathrm{OP}` ger
 befindet.
 
 Anhand des Einheitskreises lässt sich auch der so genannte "trigonometrische
-Pythagoras" ableiten; Mit der Hypothenusenlänge :math:`\mathrm{OP} = 1` und den
+Pythagoras" ableiten; Mit der Hypotenusenlänge :math:`\mathrm{OP} = 1` und den
 Kathetenlängen :math:`\sin{(\alpha)}` und :math:`\cos{(\alpha)}` lautet der
 :ref:`Satz des Pythagoras <Satz von Pythagoras>` hierbei:
 

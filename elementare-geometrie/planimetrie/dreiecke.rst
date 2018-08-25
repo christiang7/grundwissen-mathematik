@@ -360,7 +360,7 @@ Für die Fläche und den Umfang eines rechtwinkligen Dreiecks gilt: [#]_
 
 Rechtwinklige Dreiecke weisen eine Besonderheit auf: Quadriert man die Längen
 der Dreieckseiten, so entspricht die Quadratzahl :math:`c^2` der längsten
-Dreieckseite (der "Hypothenuse") genau der Summe der Quadratzahlen :math:`a^2`
+Dreieckseite (der "Hypotenuse") genau der Summe der Quadratzahlen :math:`a^2`
 und :math:`b^2` der kürzeren Dreieckseiten (der "Katheten").
 
 .. math::
@@ -370,7 +370,7 @@ und :math:`b^2` der kürzeren Dreieckseiten (der "Katheten").
 
 Diese als "Satz des `Pythagoras <https://de.wikipedia.org/wiki/Pythagoras>`_"
 bekannt gewordene Gesetzmäßigkeit lässt sich graphisch dadurch
-veranschaulichen, indem man entlang der Hypothenuse :math:`c` und den beiden
+veranschaulichen, indem man entlang der Hypotenuse :math:`c` und den beiden
 Katheten :math:`a` und :math:`b` Quadrate mit den entsprechenden Seitenlängen
 zeichnet und die Flächeninhalte miteinander vergleicht: Die Flächen der beiden
 kleineren Quadrate :math:`a^2` und :math:`b^2` sind mit dem großen Quadrat
@@ -439,7 +439,7 @@ Im rechtwinkligen Dreieck gelten darüber hinaus zwei weitere Beziehungen:
         <../../pics/geometrie/dreieck-rechtwinklig-hoehensatz-kathetensatz.svg>`
 
 * Höhensatz:
-    Das Produkt der beiden Hypothenusenteile :math:`p` und :math:`q` , die
+    Das Produkt der beiden Hypotenusenteile :math:`p` und :math:`q` , die
     rechts und links der Höhe :math:`h` liegen, ist gleich dem Quadrat der
     Höhe:
 
@@ -448,8 +448,8 @@ Im rechtwinkligen Dreieck gelten darüber hinaus zwei weitere Beziehungen:
         h^2 = p \cdot q
 
 * Kathetensatz:
-  Das Produkt einer Kathete ist gleich dem Produkt aus der Hypothenuse :math:`c`
-  und dem anliegenden Hypothenusenanteil: [#]_
+  Das Produkt einer Kathete ist gleich dem Produkt aus der Hypotenuse :math:`c`
+  und dem anliegenden Hypotenusenanteil: [#]_
 
     .. math::
 

@@ -155,7 +155,7 @@ Für Logarithmusfunktionen sind die folgenden Rechenregeln von Bedeutung:
 
 Eine besondere Bedeutung von Logarithmusfunktionen :math:`\log_{a}{(x)}` mit
 :math:`a > 1` liegt darin, dass ihre Werte langsamer wachsen als es bei einer
-Potenz- bzw. Wurzelfunktion :math:`x^n` mit beliebig kleinem (aber festem)
+Potenz- beziehungsweise Wurzelfunktion :math:`x^n` mit beliebig kleinem (aber festem)
 :math:`n` der Fall ist; es gilt also für beliebige Werte :math:`n \in \mathbb{R}
 ^{+}` und :math:`a >1`:
 

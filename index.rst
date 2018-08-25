@@ -15,12 +15,14 @@ Mathematik
 
     .. sidebar:: Hinweis
 
-        Eine Druckversion dieser Seite ist als :download:`PDF-Dokument
-        <grundwissen-mathematik.pdf>` verfügbar.
-
-        Der Quellcode zu diesem Projekt kann von `GitHub
+        Dieses Projekt kann als Quellcode von `GitHub
         <https://www.github.com/grund-wissen/grundwissen-mathematik>`_
         heruntergeladen werden.
+
+        Offline-Version:
+
+        :download:`(PDF) Grundwissen Mathematik
+        <../../build/mathematik/latex/grundwissen-mathematik.pdf>`
 
 .. toctree::
     :maxdepth: 2

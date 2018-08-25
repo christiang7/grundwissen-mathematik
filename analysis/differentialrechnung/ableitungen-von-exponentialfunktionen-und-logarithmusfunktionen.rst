@@ -20,17 +20,17 @@ Ableitungsregeln>` hergeleitet werden. Für eine Exponentialfunktion :math:`f(x)
 
     f'(x) = \frac{\mathrm{d} f(x)}{\mathrm{d} x} = \lim_{\Delta x \to 0}
     \left(\frac{f(x + \Delta x)-f(x)}{\Delta x} \right) = \lim_{\Delta x \to 0}
-    \left( \frac{a ^{(x + \Delta x)} - a ^x}{\Delta x}\right)
+    \left( \frac{a^{(x + \Delta x)} - a^x}{\Delta x}\right)
 
 Mit Hilfe der :ref:`Rechenregeln für Potenzen <Rechenregeln für Potenzen mit
 gleicher Basis>` kann dieser Term weiter umgeformt werden. Es folgt:
 
 .. math::
 
-    f'(x) = \lim_{\Delta x \to 0} \left( \frac{a ^{(x + \Delta x)} - a
-    ^x}{\Delta x}\right) = \lim_{\Delta x \to 0} \left( \frac{a ^x + a ^{\Delta
-    x} - a^x}{\Delta x}\right) = \lim_{\Delta x \to 0} \left( \frac{a ^{\Delta
-    x} - 1}{\Delta x}\right) \cdot a ^{x}
+    f'(x) = \lim_{\Delta x \to 0} \left( \frac{a^{(x + \Delta x)} - a^x}{\Delta
+    x}\right) = \lim_{\Delta x \to 0} \left( \frac{a^x \cdot a^{\Delta x} -
+    a^x}{\Delta x}\right) = \lim_{\Delta x \to 0} \left( \frac{a^{\Delta x} -
+    1}{\Delta x}\right) \cdot a^{x}
 
 Die Ableitung einer Exponentialfunktion ist somit wieder eine
 Exponentialfunktion, die mit einem konstanten, jedoch von der Basis :math:`a`
@@ -40,20 +40,20 @@ muss gelten:
 
 .. math::
 
-    \lim_{\Delta x \to 0}  \left( \frac{a_0 ^{\Delta x} - 1}{\Delta x} \right)
+    \lim_{\Delta x \to 0}  \left( \frac{a_0^{\Delta x} - 1}{\Delta x} \right)
     = 1 \quad \Longleftrightarrow \quad a_0 = \lim_{\Delta x \to 0}  \left( 1 +
     \Delta x \right)^{\frac{1}{\Delta x}}
 
 .. index:: Eulersche Zahl
 
 Dieser Grenzwert entspricht formal dem Grenzwert einer Folge :math:`\lim_{t \to
-0} (1 + t) ^{\frac{1}{t}}` reeller Zahlen. Dieser Grenzwert konnte erstmals von
+0} (1 + t)^{\frac{1}{t}}` reeller Zahlen. Dieser Grenzwert konnte erstmals von
 `Leonhard Euler <https://de.wikipedia.org/wiki/Leonhard_Euler>`_ bestimmt
 werden und wird zu dessen Ehren "Eulersche Zahl" :math:`e` genannt:
 
 .. math::
 
-    e = \lim_{t \to 0} (1 + t) ^{\frac{1}{t}} = 2,718281\ldots
+    e = \lim_{t \to 0} (1 + t)^{\frac{1}{t}} = 2,718281\ldots
 
 Diese Zahl ist irrational und für die Mathematik von ähnlicher Bedeutung wie
 die Kreiszahl :math:`\pi`: Ist nämlich die Eulersche Zahl :math:`e` Basis einer
@@ -76,7 +76,7 @@ geschrieben werden:
 
 .. math::
 
-    f(x) = a ^{x} = (e ^{\ln{(a)}})^x = e ^{x \cdot \ln{(a)}}
+    f(x) = a^{x} = (e^{\ln{(a)}})^x = e^{x \cdot \ln{(a)}}
 
 Um diese Funktion ableiten zu können, muss -- wie schon im Abschnitt
 :ref:`Ableitungen von Potenzfunktionen mit rationalem Exponenten <Ableitungen
@@ -94,13 +94,13 @@ genutzt werden:
   Beim Ableiten der äußeren Funktion wird die innere Funktion dabei
   unverändert gelassen.
 
-Für die obige Gleichung :math:`f(x) = e ^{x \cdot \ln{(a)}}` entspricht
-:math:`f_1(x) = e ^{x}` der äußeren und :math:`f_2=\ln{(a)} \cdot x` der
+Für die obige Gleichung :math:`f(x) = e^{x \cdot \ln{(a)}}` entspricht
+:math:`f_1(x) = e^{x}` der äußeren und :math:`f_2=\ln{(a)} \cdot x` der
 inneren Funktion. Da :math:`\ln{(a)} = \text{konstant}` ist, gilt: [#]_
 
 .. math::
 
-    f'(x) = \underbrace{e ^{x \cdot \ln{(a)}}}_{\text{Ableitung der äußeren
+    f'(x) = \underbrace{e^{x \cdot \ln{(a)}}}_{\text{Ableitung der äußeren
     Funktion}} \cdot \underbrace{\ln{(a)}}_{\text{Ableitung der inneren Funktion}}
 
 Die natürliche Exponentialfunktion als äußere Funktion bleibt hierbei
@@ -111,7 +111,7 @@ Exponentialfunktionen mit beliebiger Basis :math:`a` gilt also:
 .. math::
     :label: eqn-ableitungsregel-exponentialfunktion
 
-    f(x) = a ^{x} \quad \Rightarrow \quad f'(x) = \ln{(a)} \cdot a^x
+    f(x) = a^{x} \quad \Rightarrow \quad f'(x) = \ln{(a)} \cdot a^x
 
 In dieser Formel ist wegen :math:`\ln{(e)} = 1` der Sonderfall für die natürliche
 Exponentialfunktion enthalten.
@@ -143,7 +143,7 @@ f_{\mathrm{u}}(y) = a^{y}` . Somit gilt nach der Ableitungsregel
 
 .. math::
 
-    f_{\mathrm{u}}'(y) = \frac{\mathrm{d} x}{\mathrm{d} y} = \ln{(a)} \cdot a ^{y}
+    f_{\mathrm{u}}'(y) = \frac{\mathrm{d} x}{\mathrm{d} y} = \ln{(a)} \cdot a^{y}
     = \ln{(a)} \cdot x
 
 Für die Ableitung der Logarithmusfunktion gilt schließlich:
@@ -176,6 +176,6 @@ gebrochenrationalen Funktionen>` bestimmen.
 
 .. [#] Um sich die Wirkung der Kettenregel im Detail vorstellen zu können, kann
     man an dieser Stelle auch :math:`z = x \cdot \ln(a)` schreiben. Die äußere
-    Funktion ist dann :math:`f_1(z) = e ^{z}`, deren Ableitung :math:`f_1'(z) =
-    e ^{z} = e ^{x \cdot \ln{(a)}}` ist.
+    Funktion ist dann :math:`f_1(z) = e^{z}`, deren Ableitung :math:`f_1'(z) =
+    e^{z} = e^{x \cdot \ln{(a)}}` ist.
 

@@ -1,13 +1,15 @@
-.. _Mathematik-Links:
+.. _Links und Quellen:
 
 Links und Quellen
 =================
 
-.. raw:: html
+.. _Mathe-Software:
 
-    <h2>Links<a class="headerlink" href="#links" title="Permalink zu dieser Überschrift"></a></h2>
+Mathe-Software
+--------------
 
 .. index:: Computer-Algebra-System
+.. _CAS:
 .. _Computer-Algebra-Systeme:
 
 .. rubric:: Computer-Algebra-Systeme
@@ -37,8 +39,8 @@ Links und Quellen
   Maxima ist ein einfach zu erlernendes Computer-Algebra-System, das häufig als
   Lehr- und Lernplattform Anwendung findet.
 
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Maxima einfach über folgendes
-  Paket installieren:
+  Unter Debian/Ubuntu/LinuxMint lässt sich Maxima einfach über folgendes Paket
+  installieren:
 
   .. code-block:: bash
 
@@ -68,7 +70,7 @@ Links und Quellen
   <http://doc.sagemath.org/html/en/installation/binary.html#linux-and-os-x>`_
   gibt es vorkompilierte Pakete als Downloads.
 
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Sage auch über folgende
+  Unter Debian/Ubuntu/LinuxMint lässt sich Sage auch über folgende
   Installationsroutine installieren:
 
   .. code-block:: bash
@@ -84,6 +86,7 @@ Links und Quellen
   auf der Projektseite.
 
 .. index:: Funktionen-Plotter
+.. _Funktions-Plotter:
 .. _Funktionen-Plotter:
 
 .. rubric:: Funktionen-Plotter
@@ -105,15 +108,15 @@ Programmen genutzt werden können.
   <http://matplotlib.org/sampledoc/extensions.html#inserting-matplotlib-plots>`_)
   genutzt werden.
 
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich die Matplotlib auf folgende
-  Weise installieren:
+  Unter Debian/Ubuntu/LinuxMint lässt sich die Matplotlib auf folgende Weise
+  installieren:
 
   .. code-block:: bash
 
-      sudo aptitude install bpython ipython python-setuptools
-      sudo easy_install matplotlib
+      sudo aptitude install ipython3 python3-setuptools
+      sudo pip3 matplotlib
 
-  Anschließend können durch den Aufruf von ``ipython -pylab`` in einer Shell die
+  Anschließend können durch den Aufruf von ``ipythone -pylab`` in einer Shell die
   Funktionen der Matplotlib sowie weitere numerische Funktionen direkt über den
   Interpreter genutzt werden. Hierzu gibt es u.a. ein gelungenes
   `Einstiegs-Tutorial
@@ -131,8 +134,8 @@ Programmen genutzt werden können.
   Gnuplot ist weit entwickelter Funktionenplotter für 2D- und 3D-Plots, der als
   eigener Interpreter oder als Skriptsprache genutzt werden kann.
 
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich gnuplot einfach über
-  folgendes Paket installieren:
+  Unter Debian/Ubuntu/LinuxMint lässt sich ``gnuplot`` einfach über folgendes
+  Paket installieren:
 
   .. code-block:: bash
 
@@ -167,24 +170,24 @@ Programmen genutzt werden können.
   Konstruktionen. Die erstellten Zeichnungen können in einer Vielzahl an
   Formaten, u.a. PDF, PNG und SVG, ausgegeben werden.
 
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Geogebra einfach über folgendes
+  Unter Debian/Ubuntu/LinuxMint lässt sich Geogebra einfach über folgendes
   Paket installieren:
 
   .. code-block:: bash
 
-      sudo aptitude install geogebra-gnome
+      sudo aptitude install geogebra
 
-  Wer KDE benutzt, kann anstelle ``geogebra-gnome`` auch ``geogebra-kde``
-  installieren.  Anschließend kann Geogebra über einen Eintrag im Startmenü,
-  oder über die Eingabe von ``geogebra`` in einem Anwendungsstarter (``F2``)
-  oder einer Shell gestartet werden.
+  Anschließend kann Geogebra über einen Eintrag im Startmenü, oder über die
+  Eingabe von ``geogebra`` in einem Anwendungsstarter (``F2``) oder einer Shell
+  gestartet werden.
 
-  Zu Geogebra existiert ein umfangreiches `Wiki
-  <https://www.geogebra.org/manual/de/Hauptseite>`_, das neben Tutorials, Tipps und
+  Zu Geogebra existiert ein umfangreiches `Wiki (de)
+  <https://wiki.geogebra.org/de/Hauptseite>`_, das neben Tutorials, Tipps und
   Tricks auch ein deutschsprachiges `Handbuch
-  <https://www.geogebra.org/manual/de/Handbuch>`_ enthält.
+  <https://wiki.geogebra.org/de/Handbuch>`_ enthält.
 
 
+.. _Simulatoren:
 .. _Simulations-Werkzeuge:
 
 .. rubric:: Simulations-Werkzeuge
@@ -194,8 +197,8 @@ Programmen genutzt werden können.
 
 * `Scilab <https://wiki.ubuntuusers.de/Scilab>`__
 
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Scilab einfach über folgendes
-  Paket installieren:
+  Unter Debian/Ubuntu/LinuxMint lässt sich Scilab einfach über folgendes Paket
+  installieren:
 
   .. code-block:: bash
 
@@ -221,8 +224,8 @@ Programmen genutzt werden können.
 
 * `Octave <https://wiki.ubuntuusers.de/Octave>`__
 
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Octave einfach über folgendes
-  Paket installieren:
+  Unter Debian/Ubuntu/LinuxMint lässt sich Octave einfach über folgendes Paket
+  installieren:
 
   .. code-block:: bash
 
@@ -255,8 +258,8 @@ Programmen genutzt werden können.
   LibreOffice. Neben vielen Import- und Export-Funktionen verfügt es auch über
   statistische Funktionen und einen integrierten Funktionenplotter.
 
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich Gnumeric einfach über
-  folgendes Paket installieren:
+  Unter Debian/Ubuntu/LinuxMint lässt sich Gnumeric einfach über folgendes Paket
+  installieren:
 
   .. code-block:: bash
 
@@ -266,21 +269,21 @@ Programmen genutzt werden können.
   Eingabe von ``gnumeric`` in einem Anwendungsstarter (``F2``) oder einer Shell
   gestartet werden.
 
-  Die graphische Benutzeroberfläche ist weitestgehend selbsterklärend. Eine
-  Dokumentation gibt es unter den integrierten Hilfeseiten sowie in
-  englischsprachiger Form auf der `Gnumeric-Projektseite
-  <http://gnumeric.org/>`_.
+  Die graphische Benutzeroberfläche ist weitestgehend selbsterklärend.
+  Dokumentationen gibt es im Bereich :`Grund-Wissen Linux <gwl:Gnumeric>`, unter
+  den integrierten Hilfeseiten sowie in englischsprachiger Form auf der
+  `Gnumeric-Projektseite <http://gnumeric.org/>`_.
 
 .. _R:
 
 * `R <https://wiki.ubuntuusers.de/R>`__
 
-  R ist eine Interpreter-Software für statistische Funktionen und gleichzeitig
+  ``R`` ist eine Interpreter-Software für statistische Funktionen und gleichzeitig
   eine skriptbare Programmiersprache. Im wissenschaftlichen Bereich hat sich R
   in den letzten Jahren zunehmend als Standard-Werkzeug für statistische
   Analysen etabliert.
 
-  Unter Linux Mint, Ubuntu, Debian u.ä. lässt sich R einfach über folgendes
+  Unter Debian/Ubuntu/LinuxMint lässt sich ``R`` einfach über folgendes
   Paket installieren:
 
   .. code-block:: bash
@@ -288,8 +291,8 @@ Programmen genutzt werden können.
       sudo aptitude install r-base r-recommended
 
   Anschließend kann R in einer Shell mittels ``R`` aufgerufen werden. Als
-  graphische Bedienoberfläche kann beispielsweise ``rkward`` nachinstalliert
-  werden.
+  graphische Bedienoberfläche kann beispielsweise das Paket ``rkward``
+  zusätzlich installiert werden.
 
   Als Dokumentationen gibt es ein `Wikibook
   <https://upload.wikimedia.org/wikibooks/de/4/47/GNU_R.pdf>`_ sowie zum
@@ -301,7 +304,18 @@ Programmen genutzt werden können.
   aufgeführt. Auf der `R-Projektseite <https://cran.r-project.org/>`_ ist
   zusätzlich eine Vielzahl an Erweiterungen mitsamt Beschreibungen zu finden.
 
-.. `Advanced R Programming <http://adv-r.had.co.nz/>`_
+  Inzwischen gibt es weitgehenden Nachbau von ``R`` in der Programmiersprache
+  Python -- dieses Projekt heißt :ref:`Pandas <gwip:Pandas>`. Wer also auf die
+  Funktionalitäten von ``R`` zurückgreifen, aber keine extra Programmiersprache
+  lernen möchte, wird hiermit gut beraten sein..
+
+
+.. _Links:
+
+Links
+-----
+
+.. _Youtube-Videos:
 
 .. rubric:: Youtube-Videos
 
@@ -314,7 +328,7 @@ Programmen genutzt werden können.
 * `Mathematik-Wikipedia <http://de.academic.ru/dic.nsf/dewiki/928928>`_
 * `Online-Mathe-Lexikon <http://www.computermathematik.info/>`_
 * `Online-Mathebuch "Mathe 1" <http://www.mathe1.de/>`_
-* `Mathematik -- Erste Hilfe <http://www.mathematik.de/ger/index.php?artid=355>`_
+* `Mathematik -- Erste Hilfe <https://www.mathematik.de/erstehilfe>`_
 * `Mathematischer Vorkurs zum Physik-Studium (pdf) <http://www.thphys.uni-heidelberg.de/~hefft/vk_download/vk1.pdf>`_
 * `Mathematische Basteleien <http://www.mathematische-basteleien.de/>`_
 
@@ -325,12 +339,12 @@ Programmen genutzt werden können.
 
 * `FH-Lehrmaterialien Mathematik von Alexander Stoffel <http://alexanderstoffel.selfip.org/lehrmat.html>`_
 
-
 .. _Quellen:
 
-.. raw:: html
+Quellen
+-------
 
-    <h2>Quellen<a class="headerlink" href="#quellen" title="Permalink zu dieser Überschrift"></a></h2>
+.. <h2>Quellen<a class="headerlink" href="#quellen" title="Permalink zu dieser Überschrift"></a></h2>
 
 .. rubric:: Quellenangaben zur Logik
 
@@ -425,4 +439,7 @@ Der bisherige Aufbau dieses Abschnitts orientiert sich an [Olmscheid1994]_.
 
 .. [Voelkel1991] Siegfried Völkel: Mathematik für Techniker. Fachbuch-Verlag
     Leipzig, 1991.
+
+.. Biesterfeld1990] Walther Biesterfeld, Frank Schröder und Jakob Stragten:
+.. Mathematik für die Fachhochschulreife. Dähmlow Verlag, 1990.
 

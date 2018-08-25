@@ -21,7 +21,7 @@ und Rechenregeln <Grundrechenarten und Rechenregeln>`.
   .. math::
 
       \begin{array}{>{\arraybackslash$}p{14cm}<{$} >{\arraybackslash$}p{1cm}<{$}}
-          \text{a) } 3 \cdot a - 2 \cdot b - (6 \cdot a + 3 \cdot b) - (-3 \cdot a - b) & \\[12pt]
+          \text{a) } 3 \cdot a - 2 \cdot b - (6 \cdot a + 3 \cdot b) - (-3 \cdot a - 4 \cdot b) & \\[12pt]
           \text{b) } 5 \cdot a \cdot b \cdot (-2) \cdot b^2 \cdot c \cdot \dfrac{1}{2} \cdot a^2 \cdot b \cdot c^2& \\
       \end{array}
 

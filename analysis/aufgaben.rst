@@ -7,6 +7,7 @@ Aufgaben zur Analysis
     :maxdepth: 2
 
     eigenschaften-von-funktionen-aufgaben.rst
+    elementare-funktionen/aufgaben.rst
     differentialrechnung/aufgaben.rst
     integralrechnung-aufgaben.rst
 

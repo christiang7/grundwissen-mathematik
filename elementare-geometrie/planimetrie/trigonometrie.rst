@@ -16,7 +16,7 @@ Längenverhältnisse im rechtwinkligen Dreieck
 In einem rechtwinkligen Dreieck wird die an dem betrachteten Winkel
 :math:`\alpha` anliegende Kathete als Ankathete, die dem Winkel :math:`\alpha`
 gegenüber liegende Seite als Gegenkathete bezeichnet. Die dem rechten Winkel
-gegenüber liegende Seite wird Hypothenuse genannt.
+gegenüber liegende Seite wird Hypotenuse genannt.
 
 .. figure:: ../../pics/geometrie/rechtwinkliges-dreieck.png
     :width: 60%
@@ -24,7 +24,7 @@ gegenüber liegende Seite wird Hypothenuse genannt.
     :name: fig-rechtwinkliges-dreieck
     :alt:  fig-rechtwinkliges-dreieck
 
-    Gegenkathete, Ankathete und Hypothenuse in einem rechtwinkligen Dreieck.
+    Gegenkathete, Ankathete und Hypotenuse in einem rechtwinkligen Dreieck.
 
     .. only:: html
 
@@ -41,14 +41,14 @@ ein. Diese bezeichnen folgende Seitenverhältnisse:
 .. math::
     :label: eqn-sinus
 
-    \sin{\alpha } &= \frac{\text{Gegenkathete von } \alpha }{\text{Hypothenuse}
+    \sin{\alpha } &= \frac{\text{Gegenkathete von } \alpha }{\text{Hypotenuse}
     }
 
 .. math::
     :label: eqn-cosinus
 
     \cos{\alpha } &= \frac{\text{\phantom{geg}Ankathete von } \alpha
-    }{\text{Hypothenuse} }
+    }{\text{Hypotenuse} }
 
 .. math::
     :label: eqn-tangens
@@ -68,7 +68,7 @@ Bisweilen definiert man zusätzlich zum Tangens auch einen so genannten
     \alpha } = \frac{ \cos{\alpha} }{ \sin{\alpha} }
 
 Die Sinus- und Cosinuswerte sind als Längenverhältnis einer Kathete zur
-Hypothenuse, da die Hypothenuse die längste Seite im rechtwinkligen Dreieck ist,
+Hypotenuse, da die Hypotenuse die längste Seite im rechtwinkligen Dreieck ist,
 stets kleiner als eins. Die Werte des Tangens können für :math:`0 \degree \le
 \alpha < 90 \degree` alle Werte zwischen :math:`0` und :math:`+\infty`
 annehmen; für :math:`\alpha = 90 \degree` ist der Tangens nicht definiert, da
